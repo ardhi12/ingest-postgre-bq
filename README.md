@@ -30,8 +30,3 @@ To be able to analyze large data effectively and efficiently, it is necessary to
 ## Result
 ![alt text](https://raw.githubusercontent.com/ardhi12/ingest-postgre-bq/master/img/result_airflow.png)  
 ![alt text](https://raw.githubusercontent.com/ardhi12/ingest-postgre-bq/master/img/result_bq.png)
-
-## Notes
-* Output is a json file that will be located in `output/latest_stock_price_in_IDR.json`
-* The output will update automatically according to the schedule
-* Share data source comes from yahoo finance, so make sure you have an stable internet connection when running the program
